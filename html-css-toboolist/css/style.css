@@ -14,7 +14,7 @@ main{
 }
 
 .container {
-  background-color: rgb(185, 31, 31);
+  background-color: whitetitle;
   padding: 5% 20% 2% 20%;
 }
 
@@ -32,7 +32,19 @@ main{
   border: 1px solid black;
 }
 
-.task span, h2{
+.title span, h2{
   display: inline-block;
-  padding: 20px;
+  padding: 20px 0;
+}
+
+.task span{
+  color: white;
+  border: 1px solid black;
+  border-radius: 7px;
+  font-size: 10px;
+}
+
+.task .ed{
+  background-color: aqua;
+  color: white;
 }
