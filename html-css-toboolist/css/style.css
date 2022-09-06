@@ -4,18 +4,27 @@
   box-sizing: border-box;
 }
 
-header h1{
-  display: inline-block;
-  vertical-align: middle;
+header{
+  background-color: white;
+  height: 100px;
 }
 
-main{
-  background-color: rgb(204, 201, 201);
+header img, h1{
+  display: inline-block;
+  vertical-align: middle;
+  margin: 20px;
+}
+
+body{
+  background-color: rgb(248, 245, 245);
 }
 
 .container {
-  background-color: whitetitle;
+  background-color: white;
   padding: 5% 20% 2% 20%;
+  border-radius: 10px;
+  margin: 5% 10%;
+ 
 }
 
 .add-task{
@@ -30,6 +39,11 @@ main{
   color: gray;
   border-radius: 5px;
   border: 1px solid black;
+}
+
+hr{
+  margin: 5%;
+  width: 60%;
 }
 
 .title span, h2{
