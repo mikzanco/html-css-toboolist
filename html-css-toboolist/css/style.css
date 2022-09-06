@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header img{
+  vertical-align: middle;
+}
+
+main{
+  background-color: rgb(204, 201, 201);
+}
+
+.container {
+  background-color: rgb(185, 31, 31);
+  padding: 5% 20% 2% 20%;
+}
+
+.add-task{
+  background-color: rgb(46, 131, 228);
+  color: white;
+  border-radius: 5px;
+}
+
+.add-section{
+  background-color: white;
+  color: gray;
+  border-radius: 5px;
+}
