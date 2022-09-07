@@ -65,26 +65,32 @@ hr{
 .task .ed{
   background-color: aqua;
   color: white;
+  font-size: 15px;
 }
 
 .task .q1{
   background-color: darkslateblue;
+  font-size: 15px;
 }
 
 .task #recruiting{
   background-color: green;
+  font-size: 15px;
 }
 
 .task #mobile{
   background-color: rgb(182, 131, 20);
+  font-size: 15px;
 }
 
 .task #web{
   background-color: rgb(98, 44, 168);
+  font-size: 15px;
 }
 
 .task #sales{
   background-color: rgb(129, 170, 105);
+  font-size: 15px;
 }
 
 .done{
@@ -104,4 +110,8 @@ hr{
   line-height: 50px;
   text-align: center;
   border-radius: 50%;
+}
+
+div p{
+  font-size: 25px;
 }
